@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mike-turintech.github.io/sitemap.xml
