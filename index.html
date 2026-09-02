@@ -45,7 +45,7 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .pub a{color:var(--ink);font-weight:600;font-size:16px}.pub a:hover{color:var(--accent)}
 .meta{font-size:14px;color:var(--muted);margin-top:2px}.meta strong{color:var(--ink);font-weight:600}
 .venue{font-size:13px;color:var(--accent);margin-top:2px}
-ul.plain{list-style:none;padding:0;margin:0}ul.plain li{padding:10px 0;border-bottom:1px solid var(--line);font-size:16px;display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:baseline}ul.plain .yr{font-size:13px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}details.older{margin-top:22px}details.older summary{cursor:pointer;color:var(--accent);font-size:15px;font-weight:600}
+ul.plain{list-style:none;padding:0;margin:0}ul.plain li{padding:10px 0;border-bottom:1px solid var(--line);font-size:16px;display:flex;gap:14px;align-items:baseline}ul.plain li>div{flex:1;min-width:0}ul.plain .yr{flex:0 0 44px;font-size:13px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}details.older{margin-top:22px}details.older summary{cursor:pointer;color:var(--accent);font-size:15px;font-weight:600}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}.contact div{font-size:16px}.contact span{display:block;font-size:13px;color:var(--muted)}
 .note{font-size:14px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
 footer{margin-top:64px;font-size:13px;color:var(--muted)}
@@ -73,10 +73,10 @@ footer{margin-top:64px;font-size:13px;color:var(--muted)}
 <h2>Selected results</h2>
 <p class="note">Optimisations found by Artemis and merged by the maintainers of the code — the diffs and benchmark tables are public.</p>
 <ul class="plain">
-  <li><span class="yr">2026</span><a href="https://github.com/NVIDIA/TensorRT-LLM/pull/15550">NVIDIA TensorRT-LLM #15550</a> — +40% output throughput, −30% latency per token, −27 GB weight memory, accuracy lossless (Nemotron-3-Nano, A100)</li>
-  <li><span class="yr">2026</span><a href="https://github.com/ggml-org/llama.cpp/pull/26802">llama.cpp #26802</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26731">#26731</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26767">#26767</a> — three CUDA optimisations merged in one week; up to +13% generation throughput on mixture-of-experts models</li>
-  <li><span class="yr">2026</span><a href="https://github.com/QuentinFuxa/WhisperLiveKit/pull/391">WhisperLiveKit #391</a> — roughly two-thirds less encoder compute for real-time CPU transcription, quality unchanged</li>
-  <li><span class="yr">2025</span><a href="https://github.com/openai/whisper/pull/2812">OpenAI Whisper #2812</a> — 4.9× on a cross-attention kernel, byte-identical transcripts</li>
+  <li><span class="yr">2026</span><div><a href="https://github.com/NVIDIA/TensorRT-LLM/pull/15550">NVIDIA TensorRT-LLM #15550</a> — +40% output throughput, −30% latency per token, −27 GB weight memory, accuracy lossless (Nemotron-3-Nano, A100)</div></li>
+  <li><span class="yr">2026</span><div><a href="https://github.com/ggml-org/llama.cpp/pull/26802">llama.cpp #26802</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26731">#26731</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26767">#26767</a> — three CUDA optimisations merged in one week; up to +13% generation throughput on mixture-of-experts models</div></li>
+  <li><span class="yr">2026</span><div><a href="https://github.com/QuentinFuxa/WhisperLiveKit/pull/391">WhisperLiveKit #391</a> — roughly two-thirds less encoder compute for real-time CPU transcription, quality unchanged</div></li>
+  <li><span class="yr">2025</span><div><a href="https://github.com/openai/whisper/pull/2812">OpenAI Whisper #2812</a> — 4.9× on a cross-attention kernel, byte-identical transcripts</div></li>
 </ul>
 </section>
 
@@ -125,24 +125,24 @@ footer{margin-top:64px;font-size:13px;color:var(--muted)}
 <section id="talks">
 <h2>Talks &amp; media</h2>
 <ul class="plain">
-  <li><span class="yr">2026</span><a href="https://paris2026.gosim.org/schedule">Panel: The Agentic AI Moment — From Models to Intelligent Systems</a> — Agentic AI Summit, GOSIM Paris</li>
-  <li><span class="yr">2026</span><a href="https://www.googlecloudevents.com/london-summit">Google Cloud Summit London</a> — session with Hasibe Goculu, Google Cloud</li>
-  <li><span class="yr">2026</span><a href="https://redmonk.com/videos/mike-basios-on-why-ai-era-engineering-needs-a-measurement-first-approach">Why AI-era engineering needs a measurement-first approach</a> — RedMonk MonkCast, with Kate Holterhoff · <a href="https://www.youtube.com/watch?v=lEzd8FMn7Xg">YouTube</a></li>
-  <li><span class="yr">2025</span><a href="https://www.youtube.com/watch?v=rzy9ohgfBw4">Optimizing AI with Intel: TurinTech's path to efficiency</a> — Intel Software video · <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1683078">Artemis demo at Intel Vision 2025</a></li>
-  <li><span class="yr">2024</span><a href="https://www.youtube.com/watch?v=9kuxBsK82ww">TurinTech AI and Intel: scalable LLMs and cloud</a> — video interview with Michael Hülskötter, WeAreDevelopers World Congress, Berlin</li>
-  <li><span class="yr">2024</span><a href="https://www.linkedin.com/posts/leventakyil_oop2024-intelliftoff-turintech-activity-7155183232827748352-kUs6">GenAI-powered code optimisation</a> — workshop, Intel Special Day at OOP 2024, Munich</li>
-  <li><span class="yr">2023</span><a href="https://changelog.com/practicalai/237">Automating code optimization with LLMs</a> — Practical AI podcast #237 (Changelog), with Chris Benson and Daniel Whitenack · <a href="https://www.youtube.com/watch?v=08xfmq7uFYs">YouTube</a> · <a href="https://open.spotify.com/episode/13BzmUsVJvuQ81ANrSj6a6">Spotify</a></li>
+  <li><span class="yr">2026</span><div><a href="https://paris2026.gosim.org/schedule">Panel: The Agentic AI Moment — From Models to Intelligent Systems</a> — Agentic AI Summit, GOSIM Paris</div></li>
+  <li><span class="yr">2026</span><div><a href="https://www.googlecloudevents.com/london-summit">Google Cloud Summit London</a> — session with Hasibe Goculu, Google Cloud</div></li>
+  <li><span class="yr">2026</span><div><a href="https://redmonk.com/videos/mike-basios-on-why-ai-era-engineering-needs-a-measurement-first-approach">Why AI-era engineering needs a measurement-first approach</a> — RedMonk MonkCast, with Kate Holterhoff · <a href="https://www.youtube.com/watch?v=lEzd8FMn7Xg">YouTube</a></div></li>
+  <li><span class="yr">2025</span><div><a href="https://www.youtube.com/watch?v=rzy9ohgfBw4">Optimizing AI with Intel: TurinTech's path to efficiency</a> — Intel Software video · <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1683078">Artemis demo at Intel Vision 2025</a></div></li>
+  <li><span class="yr">2024</span><div><a href="https://www.youtube.com/watch?v=9kuxBsK82ww">TurinTech AI and Intel: scalable LLMs and cloud</a> — video interview with Michael Hülskötter, WeAreDevelopers World Congress, Berlin</div></li>
+  <li><span class="yr">2024</span><div><a href="https://www.linkedin.com/posts/leventakyil_oop2024-intelliftoff-turintech-activity-7155183232827748352-kUs6">GenAI-powered code optimisation</a> — workshop, Intel Special Day at OOP 2024, Munich</div></li>
+  <li><span class="yr">2023</span><div><a href="https://changelog.com/practicalai/237">Automating code optimization with LLMs</a> — Practical AI podcast #237 (Changelog), with Chris Benson and Daniel Whitenack · <a href="https://www.youtube.com/watch?v=08xfmq7uFYs">YouTube</a> · <a href="https://open.spotify.com/episode/13BzmUsVJvuQ81ANrSj6a6">Spotify</a></div></li>
 </ul>
 </section>
 
 <section id="writing">
 <h2>Writing</h2>
 <ul class="plain">
-  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/inside-llama-cpp-pr-26802">Inside llama.cpp PR #26802</a> — TurinTech engineering blog</li>
-  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/nvidia-merged-our-artemis-discovered-optimization-40-throughput-in-tensorrt-llm">NVIDIA merged our Artemis-discovered optimisation: +40% throughput in TensorRT-LLM</a> — TurinTech blog</li>
-  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/fixing-a-silent-kernel-fallback-in-openai-whisper">Fixing a silent kernel fallback in OpenAI Whisper</a> — TurinTech engineering blog</li>
-  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/why-your-ai-costs-keep-rising-even-when-token-prices-fall">Why your AI costs keep rising even when token prices fall</a> — TurinTech blog</li>
-  <li><span class="yr"></span><a href="https://www.linkedin.com/in/mike-basios-phd-90410436/recent-activity/all/">Recent posts on LinkedIn</a></li>
+  <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/blog/inside-llama-cpp-pr-26802">Inside llama.cpp PR #26802</a> — TurinTech engineering blog</div></li>
+  <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/blog/nvidia-merged-our-artemis-discovered-optimization-40-throughput-in-tensorrt-llm">NVIDIA merged our Artemis-discovered optimisation: +40% throughput in TensorRT-LLM</a> — TurinTech blog</div></li>
+  <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/blog/fixing-a-silent-kernel-fallback-in-openai-whisper">Fixing a silent kernel fallback in OpenAI Whisper</a> — TurinTech engineering blog</div></li>
+  <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/blog/why-your-ai-costs-keep-rising-even-when-token-prices-fall">Why your AI costs keep rising even when token prices fall</a> — TurinTech blog</div></li>
+  <li><span class="yr"></span><div><a href="https://www.linkedin.com/in/mike-basios-phd-90410436/recent-activity/all/">Recent posts on LinkedIn</a></div></li>
 </ul>
 </section>
 
