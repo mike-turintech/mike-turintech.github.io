@@ -1,0 +1,194 @@
+{
+"result":{
+"query":"Michail* Basios*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"36.63"
+},
+"completions":{
+"@total":"1",
+"@computed":"1",
+"@sent":"1",
+"c":{
+"@sc":"54",
+"@dc":"27",
+"@oc":"54",
+"@id":"70554696",
+"text":"basios"
+}
+},
+"hits":{
+"@total":"27",
+"@computed":"27",
+"@sent":"27",
+"@first":"0",
+"hit":[{
+"@score":"3",
+"@id":"128942",
+"info":{"authors":{"author":[{"@pid":"402/2358","text":"Mari Ashiga"},{"@pid":"37/934","text":"Wei Jie"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"230/2357","text":"Fateme Dinmohammadi"},{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"317/5179","text":"Jingzhi Gong"},{"@pid":"w/ZhengWang1","text":"Zheng Wang 0001"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"123/5293","text":"Mike Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"}]},"title":"Ensemble Learning for Large Language Models in Text and Code Generation: A Survey.","venue":"IEEE Trans. Artif. Intell.","volume":"7","number":"8","pages":"4267-4281","year":"2026","type":"Journal Articles","access":"closed","key":"journals/tai/AshigaJWVDBGWGBK26","doi":"10.1109/TAI.2026.3670235","ee":"https://doi.org/10.1109/TAI.2026.3670235","url":"https://dblp.org/rec/journals/tai/AshigaJWVDBGWGBK26"},
+"url":"URL#128942"
+},
+{
+"@score":"3",
+"@id":"204402",
+"info":{"authors":{"author":[{"@pid":"441/8718","text":"Yassine Marzouki"},{"@pid":"189/8618","text":"Chunwei Xia"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"123/5293","text":"Mike Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"w/ZhengWang1","text":"Zheng Wang 0001"}]},"title":"Enhance Performance Tuning via LLM-guided Search Templates.","venue":"ICS Workshops","pages":"40-44","year":"2026","type":"Conference and Workshop Papers","access":"closed","key":"conf/ics/MarzoukiXVBKW26","doi":"10.1145/3774895.3812194","ee":"https://doi.org/10.1145/3774895.3812194","url":"https://dblp.org/rec/conf/ics/MarzoukiXVBKW26"},
+"url":"URL#204402"
+},
+{
+"@score":"3",
+"@id":"707012",
+"info":{"authors":{"author":[{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"91/7852-1","text":"Roman Bauer 0001"}]},"title":"Artemis AI: Multi-LLM Framework for Code Optimisation.","venue":"CAI","pages":"1-6","year":"2025","type":"Conference and Workshop Papers","access":"closed","key":"conf/ieeecai/GiavrimisBWKB25","doi":"10.1109/CAI64502.2025.00057","ee":"https://doi.org/10.1109/CAI64502.2025.00057","url":"https://dblp.org/rec/conf/ieeecai/GiavrimisBWKB25"},
+"url":"URL#707012"
+},
+{
+"@score":"3",
+"@id":"729265",
+"info":{"authors":{"author":[{"@pid":"317/5179","text":"Jingzhi Gong"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"402/2358","text":"Mari Ashiga"},{"@pid":"336/6367","text":"Matthew Truscott"},{"@pid":"123/5293","text":"Mike Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"37/5126-7","text":"Jie Xu 0007"},{"@pid":"w/ZhengWang1","text":"Zheng Wang 0001"}]},"title":"Tuning LLM-based Code Optimization via Meta-Prompting: An Industrial Perspective.","venue":"ASE","pages":"3569-3580","year":"2025","type":"Conference and Workshop Papers","access":"closed","key":"conf/kbse/GongGBVWATBKXW25","doi":"10.1109/ASE63991.2025.00295","ee":"https://doi.org/10.1109/ASE63991.2025.00295","url":"https://dblp.org/rec/conf/kbse/GongGBVWATBKXW25"},
+"url":"URL#729265"
+},
+{
+"@score":"3",
+"@id":"799175",
+"info":{"authors":{"author":[{"@pid":"317/5179","text":"Jingzhi Gong"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"37/934","text":"Wei Jie"},{"@pid":"37/5126-7","text":"Jie Xu 0007"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"123/5293","text":"Mike Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"w/ZhengWang1","text":"Zheng Wang 0001"}]},"title":"Language Models for Code Optimization: Survey, Challenges and Future Directions.","venue":"CoRR","volume":"abs/2501.01277","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2501-01277","doi":"10.48550/ARXIV.2501.01277","ee":"https://doi.org/10.48550/arXiv.2501.01277","url":"https://dblp.org/rec/journals/corr/abs-2501-01277"},
+"url":"URL#799175"
+},
+{
+"@score":"3",
+"@id":"884892",
+"info":{"authors":{"author":[{"@pid":"317/5179","text":"Jingzhi Gong"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"402/2358","text":"Mari Ashiga"},{"@pid":"336/6367","text":"Matthew Truscott"},{"@pid":"123/5293","text":"Mike Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"37/5126-7","text":"Jie Xu 0007"},{"@pid":"w/ZhengWang1","text":"Zheng Wang 0001"}]},"title":"Tuning LLM-based Code Optimization via Meta-Prompting: An Industrial Perspective.","venue":"CoRR","volume":"abs/2508.01443","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2508-01443","doi":"10.48550/ARXIV.2508.01443","ee":"https://doi.org/10.48550/arXiv.2508.01443","url":"https://dblp.org/rec/journals/corr/abs-2508-01443"},
+"url":"URL#884892"
+},
+{
+"@score":"3",
+"@id":"885898",
+"info":{"authors":{"author":[{"@pid":"402/2358","text":"Mari Ashiga"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"230/2357","text":"Fateme Dinmohammadi"},{"@pid":"317/5179","text":"Jingzhi Gong"},{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"336/6367","text":"Matthew Truscott"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"123/5293","text":"Mike Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"37/934","text":"Wei Jie"}]},"title":"Industrial LLM-based Code Optimization under Regulation: A Mixture-of-Agents Approach.","venue":"CoRR","volume":"abs/2508.03329","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2508-03329","doi":"10.48550/ARXIV.2508.03329","ee":"https://doi.org/10.48550/arXiv.2508.03329","url":"https://dblp.org/rec/journals/corr/abs-2508-03329"},
+"url":"URL#885898"
+},
+{
+"@score":"3",
+"@id":"941905",
+"info":{"authors":{"author":[{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"336/6367","text":"Matthew Truscott"},{"@pid":"424/5479","text":"Mina Ilieva"},{"@pid":"180/1388","text":"Chrystalla Pavlou"},{"@pid":"424/5664","text":"Alexandru Staicu"},{"@pid":"336/7221","text":"Manal Adham"},{"@pid":"424/7183","text":"Will Evers-Hood"},{"@pid":"317/5179","text":"Jingzhi Gong"},{"@pid":"59/2378","text":"Kejia Zhang"},{"@pid":"424/5647","text":"Matvey Fedoseev"},{"@pid":"20/6234","text":"Vishal Sharma"},{"@pid":"91/7852-1","text":"Roman Bauer 0001"},{"@pid":"w/ZhengWang1","text":"Zheng Wang 0001"},{"@pid":"08/3619","text":"Hema Nair"},{"@pid":"37/934","text":"Wei Jie"},{"@pid":"30/9679","text":"Tianhua Xu"},{"@pid":"58/10928","text":"Aurora Constantin"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"123/5293","text":"Michail Basios"}]},"title":"Evolving Excellence: Automated Optimization of LLM-based Agents.","venue":"CoRR","volume":"abs/2512.09108","year":"2025","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2512-09108","doi":"10.48550/ARXIV.2512.09108","ee":"https://doi.org/10.48550/arXiv.2512.09108","url":"https://dblp.org/rec/journals/corr/abs-2512-09108"},
+"url":"URL#941905"
+},
+{
+"@score":"3",
+"@id":"2307744",
+"info":{"authors":{"author":[{"@pid":"254/1591","text":"Buhong Liu"},{"@pid":"17/1211","text":"Maria Polukarov"},{"@pid":"30/6089","text":"Carmine Ventre"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"123/5293","text":"Michail Basios"}]},"title":"The Spoofing Resistance of Frequent Call Markets.","venue":"AAMAS","pages":"825-832","year":"2022","type":"Conference and Workshop Papers","access":"open","key":"conf/atal/LiuPVLKWB22","ee":"https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p825.pdf","url":"https://dblp.org/rec/conf/atal/LiuPVLKWB22"},
+"url":"URL#2307744"
+},
+{
+"@score":"3",
+"@id":"2500026",
+"info":{"authors":{"author":[{"@pid":"261/7861","text":"Wahidur Rahman"},{"@pid":"232/8066","text":"Yisen Xu"},{"@pid":"90/8501","text":"Fan Pu"},{"@pid":"86/4142","text":"Jifeng Xuan"},{"@pid":"82/2706","text":"Xiangyang Jia"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"46/5742","text":"Baowen Xu"}]},"title":"Clone Detection on Large Scala Codebases.","venue":"CoRR","volume":"abs/2204.04247","year":"2022","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2204-04247","doi":"10.48550/ARXIV.2204.04247","ee":"https://doi.org/10.48550/arXiv.2204.04247","url":"https://dblp.org/rec/journals/corr/abs-2204-04247"},
+"url":"URL#2500026"
+},
+{
+"@score":"3",
+"@id":"2558421",
+"info":{"authors":{"author":[{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"336/7221","text":"Manal Adham"},{"@pid":"336/7551","text":"Vitali Avagyan"},{"@pid":"311/8858","text":"Alexis Butler"},{"@pid":"216/8735","text":"Paul Brookes"},{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"254/1591","text":"Buhong Liu"},{"@pid":"180/1388","text":"Chrystalla Pavlou"},{"@pid":"336/6367","text":"Matthew Truscott"},{"@pid":"336/6305","text":"Vardan Voskanyan 0001"}]},"title":"evoML Yellow Paper: Evolutionary AI and Optimisation Studio.","venue":"CoRR","volume":"abs/2212.10671","year":"2022","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2212-10671","doi":"10.48550/ARXIV.2212.10671","ee":"https://doi.org/10.48550/arXiv.2212.10671","url":"https://dblp.org/rec/journals/corr/abs-2212-10671"},
+"url":"URL#2558421"
+},
+{
+"@score":"3",
+"@id":"2896415",
+"info":{"authors":{"author":[{"@pid":"305/3678","text":"Rafail Giavrimis"},{"@pid":"311/8858","text":"Alexis Butler"},{"@pid":"305/3860","text":"Constantin Cezar Petrescu"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"94/2235","text":"Santanu Kumar Dash 0001"}]},"title":"Genetic Optimisation of C++ Applications.","venue":"ASE","pages":"1180-1182","year":"2021","type":"Conference and Workshop Papers","access":"closed","key":"conf/kbse/GiavrimisBPB021","doi":"10.1109/ASE51524.2021.9678650","ee":"https://doi.org/10.1109/ASE51524.2021.9678650","url":"https://dblp.org/rec/conf/kbse/GiavrimisBPB021"},
+"url":"URL#2896415"
+},
+{
+"@score":"3",
+"@id":"3184242",
+"info":{"authors":{"author":[{"@pid":"l/WilliamBLangdon","text":"William B. Langdon"},{"@pid":"05/4127","text":"Westley Weimer"},{"@pid":"23/8779","text":"Justyna Petke"},{"@pid":"118/6447","text":"Erik M. Fredericks"},{"@pid":"186/1126-1","text":"Seongmin Lee 0001"},{"@pid":"227/5399","text":"Emily Winter 0001"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"79/5975","text":"Myra B. Cohen"},{"@pid":"138/0351","text":"Aymeric Blot"},{"@pid":"94/7030-7","text":"Markus Wagner 0007"},{"@pid":"164/9023","text":"Bobby R. Bruce"},{"@pid":"06/1626","text":"Shin Yoo"},{"@pid":"117/6142","text":"Simos Gerasimou"},{"@pid":"183/9136","text":"Oliver Krauss"},{"@pid":"39/6301-15","text":"Yu Huang 0015"},{"@pid":"271/4442","text":"Michael C. Gerten"}]},"title":"Genetic Improvement @ ICSE 2020.","venue":"ACM SIGSOFT Softw. Eng. Notes","volume":"45","number":"4","pages":"24-30","year":"2020","type":"Journal Articles","access":"closed","key":"journals/sigsoft/LangdonWPFLWBCB20","doi":"10.1145/3417564.3417575","ee":"https://doi.org/10.1145/3417564.3417575","url":"https://dblp.org/rec/journals/sigsoft/LangdonWPFLWBCB20"},
+"url":"URL#3184242"
+},
+{
+"@score":"3",
+"@id":"3316165",
+"info":{"authors":{"author":[{"@pid":"94/2235","text":"Santanu Kumar Dash 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"202/1941","text":"Leslie Kanthan"}]},"title":"Checkers: Multi-modal Darwinian API Optimisation.","venue":"ICSE","pages":"291-292","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/icse/DashWBLK20","doi":"10.1145/3387940.3392173","ee":"https://doi.org/10.1145/3387940.3392173","url":"https://dblp.org/rec/conf/icse/DashWBLK20"},
+"url":"URL#3316165"
+},
+{
+"@score":"3",
+"@id":"3343776",
+"info":{"authors":{"author":[{"@pid":"261/7861","text":"Wahidur Rahman"},{"@pid":"232/8066","text":"Yisen Xu"},{"@pid":"90/8501","text":"Fan Pu"},{"@pid":"86/4142","text":"Jifeng Xuan"},{"@pid":"82/2706","text":"Xiangyang Jia"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"46/5742","text":"Baowen Xu"}]},"title":"Clone Detection on Large Scala Codebases.","venue":"IWSC","pages":"38-44","year":"2020","type":"Conference and Workshop Papers","access":"closed","key":"conf/iwsc/RahmanXPXJBKLWX20","doi":"10.1109/IWSC50091.2020.9047640","ee":"https://doi.org/10.1109/IWSC50091.2020.9047640","url":"https://dblp.org/rec/conf/iwsc/RahmanXPXJBKLWX20"},
+"url":"URL#3343776"
+},
+{
+"@score":"3",
+"@id":"3408763",
+"info":{"authors":{"author":[{"@pid":"02/10735","text":"Fan Fang"},{"@pid":"260/0162","text":"Waichung Chung"},{"@pid":"30/6089","text":"Carmine Ventre"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"}]},"title":"Ascertaining price formation in cryptocurrency markets with DeepLearning.","venue":"CoRR","volume":"abs/2003.00803","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2003-00803","ee":"https://arxiv.org/abs/2003.00803","url":"https://dblp.org/rec/journals/corr/abs-2003-00803"},
+"url":"URL#3408763"
+},
+{
+"@score":"3",
+"@id":"3412809",
+"info":{"authors":{"author":[{"@pid":"02/10735","text":"Fan Fang"},{"@pid":"30/6089","text":"Carmine Ventre"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"264/2043","text":"Hoiliong Kong"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"58/2842","text":"David Martínez-Rego"},{"@pid":"07/6378-9","text":"Fan Wu 0009"}]},"title":"Cryptocurrency Trading: A Comprehensive Survey.","venue":"CoRR","volume":"abs/2003.11352","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2003-11352","ee":"https://arxiv.org/abs/2003.11352","url":"https://dblp.org/rec/journals/corr/abs-2003-11352"},
+"url":"URL#3412809"
+},
+{
+"@score":"3",
+"@id":"3439006",
+"info":{"authors":{"author":[{"@pid":"l/WilliamBLangdon","text":"William B. Langdon"},{"@pid":"05/4127","text":"Westley Weimer"},{"@pid":"23/8779","text":"Justyna Petke"},{"@pid":"118/6447","text":"Erik M. Fredericks"},{"@pid":"186/1126-1","text":"Seongmin Lee 0001"},{"@pid":"227/5399","text":"Emily Winter 0001"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"79/5975","text":"Myra B. Cohen"},{"@pid":"138/0351","text":"Aymeric Blot"},{"@pid":"94/7030-7","text":"Markus Wagner 0007"},{"@pid":"164/9023","text":"Bobby R. Bruce"},{"@pid":"06/1626","text":"Shin Yoo"},{"@pid":"117/6142","text":"Simos Gerasimou"},{"@pid":"183/9136","text":"Oliver Krauss"},{"@pid":"39/6301-15","text":"Yu Huang 0015"},{"@pid":"271/4442","text":"Michael C. Gerten"}]},"title":"Genetic Improvement @ ICSE 2020.","venue":"CoRR","volume":"abs/2007.15987","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2007-15987","ee":"https://arxiv.org/abs/2007.15987","url":"https://dblp.org/rec/journals/corr/abs-2007-15987"},
+"url":"URL#3439006"
+},
+{
+"@score":"3",
+"@id":"3446779",
+"info":{"authors":{"author":[{"@pid":"274/3181","text":"Yuxi Huan"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"46/5742","text":"Baowen Xu"}]},"title":"IEO: Intelligent Evolutionary Optimisation for Hyperparameter Tuning.","venue":"CoRR","volume":"abs/2009.06390","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2009-06390","ee":"https://arxiv.org/abs/2009.06390","url":"https://dblp.org/rec/journals/corr/abs-2009-06390"},
+"url":"URL#3446779"
+},
+{
+"@score":"3",
+"@id":"3447264",
+"info":{"authors":{"author":[{"@pid":"02/10735","text":"Fan Fang"},{"@pid":"30/6089","text":"Carmine Ventre"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"123/5293","text":"Michail Basios"}]},"title":"Better Model Selection with a new Definition of Feature Importance.","venue":"CoRR","volume":"abs/2009.07708","year":"2020","type":"Informal and Other Publications","access":"open","key":"journals/corr/abs-2009-07708","ee":"https://arxiv.org/abs/2009.07708","url":"https://dblp.org/rec/journals/corr/abs-2009-07708"},
+"url":"URL#3447264"
+},
+{
+"@score":"3",
+"@id":"3476826",
+"info":{"authors":{"author":{"@pid":"123/5293","text":"Michail Basios"}},"title":"Darwinian code optimisation.","year":"2019","type":"Books and Theses","access":"closed","key":"phd/ethos/Basios19","ee":"https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.779217","url":"https://dblp.org/rec/phd/ethos/Basios19"},
+"url":"URL#3476826"
+},
+{
+"@score":"3",
+"@id":"4201691",
+"info":{"authors":{"author":[{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"47/1088","text":"Earl T. Barr"}]},"title":"Darwinian data structure selection.","venue":"ESEC/SIGSOFT FSE","pages":"118-128","year":"2018","type":"Conference and Workshop Papers","access":"closed","key":"conf/sigsoft/BasiosLWKB18","doi":"10.1145/3236024.3236043","ee":"https://doi.org/10.1145/3236024.3236043","url":"https://dblp.org/rec/conf/sigsoft/BasiosLWKB18"},
+"url":"URL#4201691"
+},
+{
+"@score":"3",
+"@id":"4563043",
+"info":{"authors":{"author":[{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"47/1088","text":"Earl T. Barr"}]},"title":"Optimising Darwinian Data Structures on Google Guava.","venue":"SSBSE","pages":"161-167","year":"2017","type":"Conference and Workshop Papers","access":"closed","key":"conf/ssbse/BasiosLWKB17","doi":"10.1007/978-3-319-66299-2_14","ee":"https://doi.org/10.1007/978-3-319-66299-2_14","url":"https://dblp.org/rec/conf/ssbse/BasiosLWKB17"},
+"url":"URL#4563043"
+},
+{
+"@score":"3",
+"@id":"4585713",
+"info":{"authors":{"author":[{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"88/9874-1","text":"Lingbo Li 0001"},{"@pid":"07/6378-9","text":"Fan Wu 0009"},{"@pid":"202/1941","text":"Leslie Kanthan"},{"@pid":"138/0818","text":"Donald Lawrence"},{"@pid":"47/1088","text":"Earl T. Barr"}]},"title":"Darwinian Data Structure Selection.","venue":"CoRR","volume":"abs/1706.03232","year":"2017","type":"Informal and Other Publications","access":"open","key":"journals/corr/BasiosLWKLB17","ee":"http://arxiv.org/abs/1706.03232","url":"https://dblp.org/rec/journals/corr/BasiosLWKLB17"},
+"url":"URL#4585713"
+},
+{
+"@score":"3",
+"@id":"5681661",
+"info":{"authors":{"author":[{"@pid":"123/5450","text":"Konstantinos Chimos"},{"@pid":"123/5428","text":"Theodoros Karvounidis"},{"@pid":"89/4888","text":"Christos Douligeris"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"138/8593","text":"Sotiris Bersimis"}]},"title":"Unisuite: An innovative integrated suite for delivering synchronous and asynchronous online education.","venue":"EDUCON","pages":"400-404","year":"2013","type":"Conference and Workshop Papers","access":"closed","key":"conf/educon/ChimosKDBB13","doi":"10.1109/EDUCON.2013.6530136","ee":"https://doi.org/10.1109/EduCon.2013.6530136","url":"https://dblp.org/rec/conf/educon/ChimosKDBB13"},
+"url":"URL#5681661"
+},
+{
+"@score":"3",
+"@id":"5745944",
+"info":{"authors":{"author":[{"@pid":"123/5450","text":"Konstantinos Chimos"},{"@pid":"143/1734","text":"Dimitris Kallergis"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"89/4888","text":"Christos Douligeris"}]},"title":"Combining technologies with the ECFS file system.","venue":"ITHET","pages":"1-4","year":"2013","type":"Conference and Workshop Papers","access":"closed","key":"conf/ithet/ChimosKBD13","doi":"10.1109/ITHET.2013.6671055","ee":"https://doi.org/10.1109/ITHET.2013.6671055","url":"https://dblp.org/rec/conf/ithet/ChimosKBD13"},
+"url":"URL#5745944"
+},
+{
+"@score":"3",
+"@id":"6032969",
+"info":{"authors":{"author":[{"@pid":"123/5450","text":"Konstantinos Chimos"},{"@pid":"123/5293","text":"Michail Basios"},{"@pid":"123/5428","text":"Theodoros Karvounidis"},{"@pid":"123/5311","text":"Ioannis Kostis"},{"@pid":"123/5398","text":"Ioannis Katsanakis"},{"@pid":"89/4888","text":"Christos Douligeris"}]},"title":"I.P.AD.: An Integrated Project Management and Instructional Systems Development Model for E-learning.","venue":"Panhellenic Conference on Informatics","pages":"405-411","year":"2012","type":"Conference and Workshop Papers","access":"closed","key":"conf/pci/ChimosBKKKD12","doi":"10.1109/PCI.2012.81","ee":"https://doi.org/10.1109/PCi.2012.81","url":"https://dblp.org/rec/conf/pci/ChimosBKKKD12"},
+"url":"URL#6032969"
+}
+]
+}
+}
+}
