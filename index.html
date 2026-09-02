@@ -9,7 +9,7 @@
 <meta property="og:title" content="Mike Basios">
 <meta property="og:description" content="Co-founder & CTO, TurinTech AI. Code optimisation, genetic improvement, LLM-guided search. Publications and contact.">
 <meta property="og:type" content="profile">
-<meta property="og:image" content="https://paris2026.gosim.org/images/speakers/better_portrait/1777588463403-mike-basios.png">
+<meta property="og:image" content="https://mike-turintech.github.io/photo.png">
 <meta name="theme-color" content="#0f172a">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Michail Basios","alternateName":"Mike Basios","jobTitle":"Co-founder & CTO","worksFor":{"@type":"Organization","name":"TurinTech AI","url":"https://turintech.ai"},"alumniOf":{"@type":"CollegeOrUniversity","name":"University College London"},"email":"mailto:mike@turintech.ai","image":"https://paris2026.gosim.org/images/speakers/better_portrait/1777588463403-mike-basios.png","url":"https://mike-turintech.github.io/","sameAs":["https://www.linkedin.com/in/mike-basios-phd-90410436/","https://github.com/mike-turintech","https://x.com/maik18","https://dblp.org/pid/123/5293","https://scholar.google.com/citations?user=8r8p0skAAAAJ","https://turintech.ai"]}
+{"@context":"https://schema.org","@type":"Person","name":"Michail Basios","alternateName":["Mike Basios","Michail (Mike) Basios"],"jobTitle":"Co-founder & CTO","worksFor":{"@type":"Organization","name":"TurinTech AI","url":"https://turintech.ai"},"alumniOf":{"@type":"CollegeOrUniversity","name":"University College London"},"email":"mailto:mike@turintech.ai","image":"https://mike-turintech.github.io/photo.png","url":"https://mike-turintech.github.io/","sameAs":["https://www.linkedin.com/in/mike-basios-phd-90410436/","https://github.com/mike-turintech","https://x.com/maik18","https://dblp.org/pid/123/5293","https://scholar.google.com/citations?user=8r8p0skAAAAJ","https://turintech.ai"]}
 </script>
 <style>
 :root{--bg:#ffffff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--accent:#6350dc;--card:#f8fafc}
@@ -43,9 +43,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .year{font-size:15px;color:var(--muted);margin:28px 0 8px;font-weight:600}
 .pub{padding:12px 0;border-bottom:1px solid var(--line)}
 .pub a{color:var(--ink);font-weight:600;font-size:16px}.pub a:hover{color:var(--accent)}
-.meta{font-size:14px;color:var(--muted);margin-top:2px}ul.plain .meta{margin-left:8px}.meta strong{color:var(--ink);font-weight:600}
+.meta{font-size:14px;color:var(--muted);margin-top:2px}.meta strong{color:var(--ink);font-weight:600}
 .venue{font-size:13px;color:var(--accent);margin-top:2px}
-ul.plain{list-style:none;padding:0;margin:0}ul.plain li{padding:10px 0;border-bottom:1px solid var(--line);font-size:16px}
+ul.plain{list-style:none;padding:0;margin:0}ul.plain li{padding:10px 0;border-bottom:1px solid var(--line);font-size:16px;display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:baseline}ul.plain .yr{font-size:13px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}details.older{margin-top:22px}details.older summary{cursor:pointer;color:var(--accent);font-size:15px;font-weight:600}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px}.contact div{font-size:16px}.contact span{display:block;font-size:13px;color:var(--muted)}
 .note{font-size:14px;color:var(--muted);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px}
 footer{margin-top:64px;font-size:13px;color:var(--muted)}
@@ -55,17 +55,29 @@ footer{margin-top:64px;font-size:13px;color:var(--muted)}
 <body>
 <main>
 <header>
-  <img class="avatar" src="https://paris2026.gosim.org/images/speakers/better_portrait/1777588463403-mike-basios.png" alt="Mike Basios" width="96" height="96" onerror="this.onerror=null;this.src='photo.png'">
+  <img class="avatar" src="photo.png" alt="Mike Basios" width="96" height="96">
   <div>
     <h1>Mike Basios</h1>
-    <p class="tag">Co-founder &amp; CTO, <a href="https://turintech.ai">TurinTech AI</a> · London</p>
+    <p class="tag">Michail Basios · Co-founder &amp; CTO, <a href="https://turintech.ai">TurinTech AI</a> · London</p>
   </div>
 </header>
-<nav><a href="#about">About</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#contact">Contact</a></nav>
+<nav><a href="#about">About</a><a href="#results">Results</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#writing">Writing</a><a href="#contact">Contact</a></nav>
 
 <section id="about">
 <h2>About</h2>
-<p>I am the co-founder and CTO of <a href="https://turintech.ai">TurinTech AI</a>, where I lead the engineering team behind <a href="https://turintech.ai">Artemis</a>, a code-optimisation platform that generates candidate changes, benchmarks every one on real hardware and ships only measured winners as pull requests — including optimisations merged into NVIDIA's TensorRT-LLM, OpenAI's Whisper and llama.cpp. I hold a PhD from University College London on Darwinian code optimisation: evolving programs under measurement to select data structures and code, published at ESEC/FSE, ICSE, ASE and SSBSE. My research since then is on evolutionary and LLM-guided search for software optimisation, and on making that search trustworthy enough for production code. Away from work I play 9-a-side football.</p>
+<p>I am the co-founder and CTO of <a href="https://turintech.ai">TurinTech AI</a>, where I lead the engineering team behind <a href="https://www.turintech.ai/product">Artemis</a>: a code-optimisation platform that generates candidate changes, benchmarks every one on real hardware, and ships only measured winners as pull requests — on any metric a team cares about, from throughput and memory to accuracy and cost.</p>
+<p>I hold a PhD from University College London on Darwinian code optimisation — evolving programs under measurement to select data structures and code — published at ESEC/FSE, ICSE, ASE and SSBSE. My research since then is on evolutionary and LLM-guided search for software optimisation, and on making that search trustworthy enough for production code. Away from work I play 9-a-side football.</p>
+</section>
+
+<section id="results">
+<h2>Selected results</h2>
+<p class="note">Optimisations found by Artemis and merged by the maintainers of the code — the diffs and benchmark tables are public.</p>
+<ul class="plain">
+  <li><span class="yr">2026</span><a href="https://github.com/NVIDIA/TensorRT-LLM/pull/15550">NVIDIA TensorRT-LLM #15550</a> — +40% output throughput, −30% latency per token, −27 GB weight memory, accuracy lossless (Nemotron-3-Nano, A100)</li>
+  <li><span class="yr">2026</span><a href="https://github.com/ggml-org/llama.cpp/pull/26802">llama.cpp #26802</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26731">#26731</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26767">#26767</a> — three CUDA optimisations merged in one week; up to +13% generation throughput on mixture-of-experts models</li>
+  <li><span class="yr">2026</span><a href="https://github.com/QuentinFuxa/WhisperLiveKit/pull/391">WhisperLiveKit #391</a> — roughly two-thirds less encoder compute for real-time CPU transcription, quality unchanged</li>
+  <li><span class="yr">2025</span><a href="https://github.com/openai/whisper/pull/2812">OpenAI Whisper #2812</a> — 4.9× on a cross-attention kernel, byte-identical transcripts</li>
+</ul>
 </section>
 
 <section id="publications">
@@ -100,24 +112,37 @@ footer{margin-top:64px;font-size:13px;color:var(--muted)}
 <article class="pub"><a href="https://doi.org/10.1145/3236024.3236043" rel="noopener">Darwinian data structure selection</a><div class="meta"><strong>Michail Basios</strong>, Lingbo Li, Fan Wu, Leslie Kanthan, Earl T. Barr</div><div class="venue">ESEC/FSE</div></article>
 <h3 class="year">2017</h3>
 <article class="pub"><a href="https://doi.org/10.1007/978-3-319-66299-2_14" rel="noopener">Optimising Darwinian Data Structures on Google Guava</a><div class="meta"><strong>Michail Basios</strong>, Lingbo Li, Fan Wu, Leslie Kanthan, Earl T. Barr</div><div class="venue">SSBSE</div></article>
+<details class="older"><summary>Earlier work (2012–2013)</summary>
 <h3 class="year">2013</h3>
 <article class="pub"><a href="https://doi.org/10.1109/ITHET.2013.6671055" rel="noopener">Combining technologies with the ECFS file system</a><div class="meta">Konstantinos Chimos, Dimitris Kallergis, <strong>Michail Basios</strong>, Christos Douligeris</div><div class="venue">ITHET</div></article>
 <article class="pub"><a href="https://doi.org/10.1109/EduCon.2013.6530136" rel="noopener">Unisuite: An innovative integrated suite for delivering synchronous and asynchronous online education</a><div class="meta">Konstantinos Chimos, Theodoros Karvounidis, Christos Douligeris, <strong>Michail Basios</strong>, Sotiris Bersimis</div><div class="venue">EDUCON</div></article>
 <h3 class="year">2012</h3>
 <article class="pub"><a href="https://doi.org/10.1109/PCi.2012.81" rel="noopener">I.P.AD.: An Integrated Project Management and Instructional Systems Development Model for E-learning</a><div class="meta">Konstantinos Chimos, <strong>Michail Basios</strong>, Theodoros Karvounidis, Ioannis Kostis, Ioannis Katsanakis, Christos Douligeris</div><div class="venue">Panhellenic Conference on Informatics</div></article>
-<!-- /PUBS -->
+
+</details><!-- /PUBS -->
 </section>
 
 <section id="talks">
 <h2>Talks &amp; media</h2>
 <ul class="plain">
-  <li><a href="https://paris2026.gosim.org/schedule">Panel: The Agentic AI Moment — From Models to Intelligent Systems</a> — Agentic AI Summit, GOSIM Paris 2026 <span class="meta">2026</span></li>
-  <li><a href="https://www.googlecloudevents.com/london-summit">Google Cloud Summit London</a> — session with Hasibe Goculu, Google Cloud <span class="meta">June 2026</span></li>
-  <li><a href="https://redmonk.com/videos/mike-basios-on-why-ai-era-engineering-needs-a-measurement-first-approach">Why AI-era engineering needs a measurement-first approach</a> — RedMonk MonkCast, with Kate Holterhoff · <a href="https://www.youtube.com/watch?v=lEzd8FMn7Xg">YouTube</a> <span class="meta">2026</span></li>
-  <li><a href="https://www.youtube.com/watch?v=rzy9ohgfBw4">Optimizing AI with Intel: TurinTech's path to efficiency</a> — Intel video · <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1683078">Artemis demo at Intel Vision 2025</a> <span class="meta">2025</span></li>
-  <li><a href="https://www.youtube.com/watch?v=9kuxBsK82ww">TurinTech AI and Intel: scalable LLMs and cloud</a> — video interview with Michael Hülskötter, WeAreDevelopers World Congress, Berlin <span class="meta">2024</span></li>
-  <li><a href="https://www.linkedin.com/posts/leventakyil_oop2024-intelliftoff-turintech-activity-7155183232827748352-kUs6">GenAI-powered code optimisation</a> — workshop, Intel Special Day at OOP 2024, Munich <span class="meta">2024</span></li>
-  <li><a href="https://changelog.com/practicalai/237">Automating code optimization with LLMs</a> — Practical AI podcast #237 (Changelog), with Chris Benson and Daniel Whitenack · <a href="https://www.youtube.com/watch?v=08xfmq7uFYs">YouTube</a> · <a href="https://open.spotify.com/episode/13BzmUsVJvuQ81ANrSj6a6">Spotify</a> <span class="meta">2023</span></li>
+  <li><span class="yr">2026</span><a href="https://paris2026.gosim.org/schedule">Panel: The Agentic AI Moment — From Models to Intelligent Systems</a> — Agentic AI Summit, GOSIM Paris</li>
+  <li><span class="yr">2026</span><a href="https://www.googlecloudevents.com/london-summit">Google Cloud Summit London</a> — session with Hasibe Goculu, Google Cloud</li>
+  <li><span class="yr">2026</span><a href="https://redmonk.com/videos/mike-basios-on-why-ai-era-engineering-needs-a-measurement-first-approach">Why AI-era engineering needs a measurement-first approach</a> — RedMonk MonkCast, with Kate Holterhoff · <a href="https://www.youtube.com/watch?v=lEzd8FMn7Xg">YouTube</a></li>
+  <li><span class="yr">2025</span><a href="https://www.youtube.com/watch?v=rzy9ohgfBw4">Optimizing AI with Intel: TurinTech's path to efficiency</a> — Intel Software video · <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1683078">Artemis demo at Intel Vision 2025</a></li>
+  <li><span class="yr">2024</span><a href="https://www.youtube.com/watch?v=9kuxBsK82ww">TurinTech AI and Intel: scalable LLMs and cloud</a> — video interview with Michael Hülskötter, WeAreDevelopers World Congress, Berlin</li>
+  <li><span class="yr">2024</span><a href="https://www.linkedin.com/posts/leventakyil_oop2024-intelliftoff-turintech-activity-7155183232827748352-kUs6">GenAI-powered code optimisation</a> — workshop, Intel Special Day at OOP 2024, Munich</li>
+  <li><span class="yr">2023</span><a href="https://changelog.com/practicalai/237">Automating code optimization with LLMs</a> — Practical AI podcast #237 (Changelog), with Chris Benson and Daniel Whitenack · <a href="https://www.youtube.com/watch?v=08xfmq7uFYs">YouTube</a> · <a href="https://open.spotify.com/episode/13BzmUsVJvuQ81ANrSj6a6">Spotify</a></li>
+</ul>
+</section>
+
+<section id="writing">
+<h2>Writing</h2>
+<ul class="plain">
+  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/inside-llama-cpp-pr-26802">Inside llama.cpp PR #26802</a> — TurinTech engineering blog</li>
+  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/nvidia-merged-our-artemis-discovered-optimization-40-throughput-in-tensorrt-llm">NVIDIA merged our Artemis-discovered optimisation: +40% throughput in TensorRT-LLM</a> — TurinTech blog</li>
+  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/fixing-a-silent-kernel-fallback-in-openai-whisper">Fixing a silent kernel fallback in OpenAI Whisper</a> — TurinTech engineering blog</li>
+  <li><span class="yr">2026</span><a href="https://www.turintech.ai/blog/why-your-ai-costs-keep-rising-even-when-token-prices-fall">Why your AI costs keep rising even when token prices fall</a> — TurinTech blog</li>
+  <li><span class="yr"></span><a href="https://www.linkedin.com/in/mike-basios-phd-90410436/recent-activity/all/">Recent posts on LinkedIn</a></li>
 </ul>
 </section>
 

@@ -31,6 +31,9 @@ for i in pubs:
     link = i.get("ee") or i.get("url")
     rows.append(f'<article class="pub"><a href="{html.escape(link)}" rel="noopener">{html.escape(i["title"].rstrip("."))}</a><div class="meta">{authors(i)}</div><div class="venue">{html.escape(v)}</div></article>')
 block = "\n".join(rows)
+idx = block.find('<h3 class="year">2013</h3>')
+if idx > 0:
+    block = block[:idx] + '<details class="older"><summary>Earlier work (2012–2013)</summary>\n' + block[idx:] + "\n</details>"
 page = open("index.html").read()
 new = re.sub(r"(<!-- PUBS -->).*?(<!-- /PUBS -->)", lambda m: m.group(1) + "\n" + block + "\n" + m.group(2), page, flags=re.S)
 if new == page:
