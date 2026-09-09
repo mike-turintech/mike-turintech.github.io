@@ -33,7 +33,9 @@ for i in pubs:
     v = i.get("venue") or ("PhD thesis, University College London" if "Darwinian code optimisation" in i["title"] else "")
     v = VEN.get(v, v)
     link = i.get("ee") or i.get("url")
-    rows.append(f'<article class="pub"><a href="{html.escape(link)}" rel="noopener">{html.escape(i["title"].rstrip("."))}</a><div class="meta">{authors(i)}</div><div class="venue">{html.escape(v)}</div></article>')
+    if "Darwinian code optimisation" in i["title"]:  # DBLP points at EThOS (offline since 2023); use UCL Discovery
+        link = "https://discovery.ucl.ac.uk/10070648/"; v += ' · <a href="https://discovery.ucl.ac.uk/10070648/1/Basios_10070648_thesis.pdf">PDF</a>'
+    rows.append(f'<article class="pub"><a href="{html.escape(link)}" rel="noopener">{html.escape(i["title"].rstrip("."))}</a><div class="meta">{authors(i)}</div><div class="venue">{v if "<a " in v else html.escape(v)}</div></article>')
 block = "\n".join(rows)
 idx = block.find('<h3 class="year">2013</h3>')
 if idx > 0:

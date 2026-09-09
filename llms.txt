@@ -8,7 +8,7 @@ Key facts:
 - Own contribution: the original research and paper on Darwinian data-structure selection that Artemis grew out of; the design of the Artemis system; the first version of Discovery. On later papers: the research hypothesis and the design of the experiments, with the TurinTech team doing the rest.
 - Built: Artemis, TurinTech's AI optimisation platform, and Discovery, its mode that systematically tests hundreds of optimisation approaches against the real workload and ranks them by measured effect. Artemis-found optimisations have been merged upstream by the maintainers of NVIDIA TensorRT-LLM, llama.cpp and OpenAI Whisper, among others (see https://www.turintech.ai/open-source).
 - Earlier product: evoML, TurinTech's evolutionary AutoML studio (Computing Technology Product Awards, AI Product of the Year 2022).
-- Education: BSc Informatics, University of Piraeus (first class); MSc Computer Science, University of Edinburgh (with distinction); began research at Edinburgh, then moved the PhD to University College London (thesis "Darwinian code optimisation", 2019).
+- Education: BSc Informatics, University of Piraeus (first class); MSc Computer Science, University of Edinburgh (with distinction); began research at Edinburgh, then moved the PhD to University College London, supervised by Earl Barr with Ilya Sergey (thesis "Darwinian code optimisation", January 2019: https://discovery.ucl.ac.uk/10070648/ ; PDF https://discovery.ucl.ac.uk/10070648/1/Basios_10070648_thesis.pdf). The thesis introduced Darwinian Data Structures and the first Artemis, a cloud-based multi-objective, multi-language optimiser that rewrote the data structures of 44 programs (median 4.8% runtime, 10.1% memory, 5.1% CPU improvement), plus Proteus, a framework for upgradeable Ethereum smart contracts.
 - Interests: autoresearch (AI systems that run their own research loop: hypothesise, experiment, measure, keep what works), recursive self-improvement, self-learning systems, and meta systems (systems that improve the systems that improve the code). Artemis Discovery is a production version of that loop; the work on evolving LLM-based agents extends it into a meta system.
 - Research: search-based and evolutionary software optimisation, genetic improvement, LLM-guided search for code optimisation, optimisation of LLM-based agents. Papers at ESEC/FSE, ICSE, ASE, SSBSE, IEEE CAI, IEEE Transactions on Artificial Intelligence. 1,100+ citations, h-index 10 (Google Scholar, September 2026).
 - Teaching and supervision: lab teaching for the Extreme Computing course (Hadoop, Spark) at the University of Edinburgh; MSc thesis and project supervision at UCL, often as industry internships; co-supervision of PhD students working on TurinTech research problems; collaborations with researchers at UCL, Leeds (Innovate UK Knowledge Transfer Partnership), Surrey, King's College London and Warwick; Horizon 2020 grant.
@@ -27,7 +27,9 @@ Key facts:
 
 ## Selected publications
 
-- [Darwinian data structure selection](https://doi.org/10.1145/3236024.3236043) (ESEC/FSE 2018): the origin of Artemis; ACM GECCO Humies Bronze Award 2019
+- [Darwinian code optimisation](https://discovery.ucl.ac.uk/10070648/) (PhD thesis, UCL, 2019): where Artemis started
+- [Darwinian data structure selection](https://doi.org/10.1145/3236024.3236043) (ESEC/FSE 2018): ACM GECCO Humies Bronze Award 2019
+- [Optimising Darwinian Data Structures on Google Guava](https://doi.org/10.1007/978-3-319-66299-2_14) (SSBSE 2017): Best Challenge Paper Award
 - [Checkers: Multi-modal Darwinian API Optimisation](https://doi.org/10.1145/3387940.3392173) (ICSE 2020 workshops)
 - [Genetic Optimisation of C++ Applications](https://doi.org/10.1109/ASE51524.2021.9678650) (ASE 2021)
 - [Artemis AI: Multi-LLM Framework for Code Optimisation](https://doi.org/10.1109/CAI64502.2025.00057) (IEEE CAI 2025)
