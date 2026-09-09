@@ -68,37 +68,19 @@ footer{margin-top:64px;font-size:13px;color:var(--muted)}
     <p class="tag">Michail Basios · Co-founder &amp; CTO, <a href="https://turintech.ai">TurinTech AI</a> · London</p>
   </div>
 </header>
-<nav><a href="#about">About</a><a href="#results">Results</a><a href="#awards">Awards</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#writing">Writing</a><a href="#turintech">TurinTech</a><a href="#contact">Contact</a></nav>
+<nav><a href="#about">About</a><a href="#awards">Awards</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#writing">Writing</a><a href="#contact">Contact</a></nav>
 
 <section id="about">
 <h2>About</h2>
-<p>I am the co-founder and CTO of <a href="https://turintech.ai">TurinTech AI</a>, a UCL spinout, where I lead the engineering team behind <a href="https://www.turintech.ai/product/overview">Artemis</a>: an optimisation platform that combines evolutionary search with multi-LLM orchestration to explore hundreds of candidate changes to code, models and agents, benchmarks every one on the real workload, and ships only measured winners as pull requests — on any metric a team cares about, from throughput and memory to accuracy and cost. The guiding idea, in the company's words: <em>if it can be measured, it can be optimised</em>.</p>
+<p>I am the co-founder and CTO of <a href="https://turintech.ai">TurinTech AI</a>, a UCL spinout, where I lead the engineering team behind <a href="https://www.turintech.ai/product/overview">Artemis</a>: an optimisation platform that combines evolutionary search with multi-LLM orchestration to explore hundreds of candidate changes to code, models and agents, benchmarks every one on the real workload, and ships only measured winners as pull requests — on any metric a team cares about, from throughput and memory to accuracy and cost. The guiding idea: <em>if it can be measured, it can be optimised</em>. Optimisations Artemis found have been merged upstream by the maintainers of NVIDIA TensorRT-LLM, llama.cpp and OpenAI Whisper, among others; the diffs and benchmarks are on <a href="https://www.turintech.ai/open-source">turintech.ai/open-source</a>.</p>
 <p>I hold a PhD from University College London on Darwinian code optimisation — evolving programs under measurement to select data structures and code — published at ESEC/FSE, ICSE, ASE and SSBSE, and recognised with an ACM GECCO <a href="https://www.human-competitive.org/">Human-Competitive Results (Humies)</a> award. Before UCL I studied computer science at the University of Edinburgh (MSc) and informatics at the University of Piraeus (BSc), and worked on data and software systems in investment banking. My research since then is on evolutionary and LLM-guided search for software optimisation, and on making that search trustworthy enough for production code. Away from work I play 9-a-side football.</p>
-</section>
-
-<section id="results">
-<h2>Selected results</h2>
-<p class="note">Optimisations found by Artemis and merged by the maintainers of the code — the diffs and benchmark tables are public. Full list on <a href="https://www.turintech.ai/open-source">turintech.ai/open-source</a>.</p>
-<ul class="plain">
-  <li><span class="yr">2026</span><div><a href="https://www.intel.com/content/www/us/en/content-details/924199/turintech-artemis-partner-brief.html">vLLM on Intel Xeon 6</a> — 2.07× output token throughput (Qwen 3.6 35B), no change to weights or precision; benchmarked and published by Intel as a partner brief</div></li>
-  <li><span class="yr">2026</span><div><a href="https://github.com/NVIDIA/TensorRT-LLM/pull/15550">NVIDIA TensorRT-LLM #15550</a> — +40% output throughput, −30% latency per token, −27 GB weight memory, accuracy lossless (Nemotron-3-Nano, A100) · <a href="https://github.com/NVIDIA/TensorRT-LLM/pull/18313">#18313</a> — a further +108% throughput, under review</div></li>
-  <li><span class="yr">2026</span><div><a href="https://github.com/ggml-org/llama.cpp/pull/26802">llama.cpp #26802</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26731">#26731</a>, <a href="https://github.com/ggml-org/llama.cpp/pull/26767">#26767</a> — three CUDA optimisations merged in one week; up to +13% generation throughput on mixture-of-experts models, 5.2× and 47× on copy kernels</div></li>
-  <li><span class="yr">2026</span><div><a href="https://github.com/QuentinFuxa/WhisperLiveKit/pull/391">WhisperLiveKit #391</a> — roughly half the encoder calls for real-time CPU transcription, quality unchanged</div></li>
-  <li><span class="yr">2026</span><div><a href="https://github.com/openai/whisper/pull/2812">OpenAI Whisper #2812</a> — 4.9× on a cross-attention kernel (424 → 87 µs), byte-identical transcripts</div></li>
-  <li><span class="yr">2026</span><div><a href="https://github.com/openvinotoolkit/openvino/pull/36587">OpenVINO #36587</a> — single-pass normalisation</div></li>
-  <li><span class="yr">2025</span><div><a href="https://github.com/langflow-ai/langflow/pull/7248">Langflow #7248</a> — 417 → 265 ms on a hot path (+57%)</div></li>
-  <li><span class="yr">2024</span><div><a href="https://github.com/lballabio/QuantLib/pull/1965">QuantLib #1965</a> — ≈30% faster test suite; QuantLib Python optimisation estimated to save up to $400k a year in compute</div></li>
-</ul>
 </section>
 
 <section id="awards">
 <h2>Awards &amp; recognition</h2>
 <ul class="plain">
   <li><span class="yr">2019</span><div><a href="https://www.human-competitive.org/">ACM GECCO Human-Competitive Results ("Humies") Bronze Award</a> — for <em>Darwinian Data Structure Selection</em>, with Lingbo Li, Fan Wu, Leslie Kanthan and Earl T. Barr · <a href="http://www0.cs.ucl.ac.uk/staff/ucacbbl/gecco2019/humies/basiosslides.pdf">slides</a></div></li>
-  <li><span class="yr">2024</span><div><a href="https://techround.co.uk/techround-100/28-turintech-ai/">TechRound 100</a> — TurinTech AI ranked #28</div></li>
-  <li><span class="yr">2023</span><div><a href="https://www.turintech.ai/about">Financial Times Tech Champions</a> — TurinTech shortlisted</div></li>
-  <li><span class="yr"></span><div><a href="https://www.turintech.ai/about">Sifted DeepTech Rising Stars</a> and Banking Tech Awards "Tech of the Future" — TurinTech</div></li>
-  <li><span class="yr">2022</span><div><a href="https://event.computing.co.uk/technologyproductawards2022/en/page/2022-winners">Computing Technology Product Awards — AI Product of the Year</a> — for evoML, TurinTech's evolutionary AutoML studio</div></li>
+  <li><span class="yr"></span><div>With TurinTech: <a href="https://event.computing.co.uk/technologyproductawards2022/en/page/2022-winners">Computing AI Product of the Year 2022</a> (evoML), Financial Times Tech Champions 2023 shortlist, Sifted DeepTech Rising Stars, <a href="https://techround.co.uk/techround-100/28-turintech-ai/">TechRound 100</a> 2024</div></li>
 </ul>
 </section>
 
@@ -162,19 +144,6 @@ footer{margin-top:64px;font-size:13px;color:var(--muted)}
   <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/blog/fixing-a-silent-kernel-fallback-in-openai-whisper">Fixing a silent kernel fallback in OpenAI Whisper</a> — TurinTech engineering blog</div></li>
   <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/blog/why-your-ai-costs-keep-rising-even-when-token-prices-fall">Why your AI costs keep rising even when token prices fall</a> — TurinTech blog</div></li>
   <li><span class="yr"></span><div><a href="https://www.linkedin.com/in/mike-basios-phd-90410436/recent-activity/all/">Recent posts on LinkedIn</a></div></li>
-</ul>
-</section>
-
-<section id="turintech">
-<h2>TurinTech milestones</h2>
-<p class="note">The company I co-founded in 2017 with Leslie Kanthan (CEO) and Fan Wu (Chief Science Officer), out of our research group at UCL. Backed by Oxford Capital, IQ Capital and Circle Rock; customers and partners include Lloyds Banking Group, Intel, Red Hat and Hazelcast.</p>
-<ul class="plain">
-  <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/news/turintech-artemis-listed-in-the-red-hat-ecosystem-catalog">Artemis listed in the Red Hat Ecosystem Catalog</a> — Partner Validated for OpenShift and RHEL (August)</div></li>
-  <li><span class="yr">2026</span><div><a href="https://www.turintech.ai/news/intel-verifies-artemis-as-an-optimisation-platform">Intel verifies Artemis as an optimisation platform</a> — partner brief after Artemis doubled vLLM CPU throughput on Xeon 6 (July)</div></li>
-  <li><span class="yr">2025</span><div><a href="https://www.turintech.ai/news/turintech-ends-prompt-roulette-with-artemis-developer-preview-the-first-ai-engineering-platform-built-for-real-world-codebases">Artemis Developer Preview</a> — free tier; works with GitHub, GitLab, Bitbucket and Azure DevOps, and alongside Claude Code, Cursor and Codex (December)</div></li>
-  <li><span class="yr">2025</span><div><a href="https://www.turintech.ai/news/turintech-and-intel-partner-to-deliver-fully-offline-version-of-artemis-optimized-for-ai-pcs">Intel partnership</a> — a fully offline, on-device Artemis for AI PCs (October) · <a href="https://www.turintech.ai/news/turintech-appoints-former-intel-cto-greg-lavender-as-strategic-advisor-to-guide-enterprise-ai-growth">Greg Lavender</a>, former Intel CTO, joins as strategic advisor</div></li>
-  <li><span class="yr">2025</span><div><a href="https://techcrunch.com/2025/03/18/turintech-reveals-20m-in-backing-to-fix-problems-in-vibe-coding/">Artemis launches at NVIDIA GTC; $20M in funding revealed</a> — Series A led by Oxford Capital (TechCrunch, March)</div></li>
-  <li><span class="yr">2017</span><div><a href="https://www.turintech.ai/about">TurinTech founded</a> — UCL spinout commercialising Darwinian code optimisation; evoML, its evolutionary AutoML studio, followed</div></li>
 </ul>
 </section>
 
