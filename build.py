@@ -8,8 +8,12 @@ raw = urllib.request.urlopen(Q, timeout=30).read().decode()
 open("dblp.json", "w").write(raw)
 hits = [h["info"] for h in json.loads(raw)["result"]["hits"].get("hit", [])]
 norm = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())
+# Off-topic for this page (finance / crypto side projects): kept on DBLP, not shown here.
+EXCLUDE = ("spoofing resistance", "cryptocurrency", "feature importance")
 by = {}
 for i in hits:
+    if any(x in i["title"].lower() for x in EXCLUDE):
+        continue
     k = norm(i["title"])
     if k not in by or (by[k].get("venue") == "CoRR" and i.get("venue") != "CoRR"):
         by[k] = i
