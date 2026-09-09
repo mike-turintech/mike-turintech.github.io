@@ -44,3 +44,5 @@ if new == page:
     sys.exit("PUBS markers not found in index.html")
 open("index.html", "w").write(new)
 print(f"{len(pubs)} publications written")
+
+import runpy; runpy.run_path("llms.py")  # keep llms-full.txt in sync

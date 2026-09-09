@@ -1,0 +1,47 @@
+# Mike Basios
+
+> Mike (Michail) Basios is an AI specialist with a decade of industrial experience: co-founder and CTO of TurinTech AI (London, UCL spinout) and builder of Artemis and its Discovery engine, an optimisation platform that combines evolutionary search with multi-LLM orchestration to improve code, models and AI agents under measurement. PhD from University College London on Darwinian code optimisation; ACM GECCO Human-Competitive Results (Humies) Bronze Award 2019.
+
+Key facts:
+- Name: Michail Basios, usually Mike Basios. Published as "Michail Basios" or "Mike Basios".
+- Role: Co-founder and Chief Technology Officer, TurinTech AI (Turing Intelligence Technology Ltd), since 2017. Based in London, UK.
+- Built: Artemis, TurinTech's AI optimisation platform, and Discovery, its mode that systematically tests hundreds of optimisation approaches against the real workload and ranks them by measured effect. Artemis-found optimisations have been merged upstream by the maintainers of NVIDIA TensorRT-LLM, llama.cpp and OpenAI Whisper, among others (see https://www.turintech.ai/open-source).
+- Earlier product: evoML, TurinTech's evolutionary AutoML studio (Computing Technology Product Awards, AI Product of the Year 2022).
+- Education: PhD, Computer Science, University College London (thesis "Darwinian code optimisation", 2019); MSc Computer Science, University of Edinburgh; BSc Informatics, University of Piraeus.
+- Research: search-based and evolutionary software optimisation, genetic improvement, LLM-guided search for code optimisation, optimisation of LLM-based agents. Papers at ESEC/FSE, ICSE, ASE, SSBSE, IEEE CAI, IEEE Transactions on Artificial Intelligence. 1,100+ citations, h-index 10 (Google Scholar, September 2026).
+- Teaching and supervision: lab teaching for the Extreme Computing course (Hadoop, Spark) at the University of Edinburgh; MSc thesis and project supervision at UCL, often as industry internships; co-supervision of PhD students working on TurinTech research problems; collaborations with researchers at UCL, Leeds (Innovate UK Knowledge Transfer Partnership), Surrey, King's College London and Warwick; Horizon 2020 grant.
+- Contact: mike@turintech.ai
+
+## Profiles
+
+- [Personal page](https://mike-turintech.github.io/): this site
+- [LinkedIn](https://www.linkedin.com/in/mike-basios-phd-90410436/)
+- [GitHub](https://github.com/mike-turintech)
+- [Google Scholar](https://scholar.google.com/citations?user=8r8p0skAAAAJ)
+- [DBLP](https://dblp.org/pid/123/5293)
+- [Semantic Scholar](https://www.semanticscholar.org/author/Michail-Basios/2907390)
+- [X](https://x.com/maik18)
+- [TurinTech AI](https://turintech.ai): company site; [Artemis product overview](https://www.turintech.ai/product/overview); [research page](https://www.turintech.ai/research)
+
+## Selected publications
+
+- [Darwinian data structure selection](https://doi.org/10.1145/3236024.3236043) (ESEC/FSE 2018): the origin of Artemis; ACM GECCO Humies Bronze Award 2019
+- [Checkers: Multi-modal Darwinian API Optimisation](https://doi.org/10.1145/3387940.3392173) (ICSE 2020 workshops)
+- [Genetic Optimisation of C++ Applications](https://doi.org/10.1109/ASE51524.2021.9678650) (ASE 2021)
+- [Artemis AI: Multi-LLM Framework for Code Optimisation](https://doi.org/10.1109/CAI64502.2025.00057) (IEEE CAI 2025)
+- [Tuning LLM-based Code Optimization via Meta-Prompting: An Industrial Perspective](https://doi.org/10.1109/ASE63991.2025.00295) (ASE 2025)
+- [Language Models for Code Optimization: Survey, Challenges and Future Directions](https://doi.org/10.48550/arXiv.2501.01277) (arXiv 2025)
+- [Evolving Excellence: Automated Optimization of LLM-based Agents](https://doi.org/10.48550/arXiv.2512.09108) (arXiv 2025)
+- [Ensemble Learning for Large Language Models in Text and Code Generation: A Survey](https://doi.org/10.1109/TAI.2026.3670235) (IEEE Transactions on AI 2026)
+
+## Talks and media
+
+- [RedMonk MonkCast: Why AI-era engineering needs a measurement-first approach](https://redmonk.com/videos/mike-basios-on-why-ai-era-engineering-needs-a-measurement-first-approach) (2026)
+- [GOSIM Paris 2026, panel: The Agentic AI Moment](https://paris2026.gosim.org/speakers/mike-besios/) (2026)
+- [Practical AI podcast #237: Automating code optimization with LLMs](https://changelog.com/practicalai/237) (2023)
+- [Intel Software video: Optimizing AI with Intel, TurinTech's path to efficiency](https://www.youtube.com/watch?v=rzy9ohgfBw4) (2024)
+
+## Optional
+
+- [Full publication list](https://mike-turintech.github.io/llms-full.txt): every paper on this site, in Markdown
+- [Sitemap](https://mike-turintech.github.io/sitemap.xml)

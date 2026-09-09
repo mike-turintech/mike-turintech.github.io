@@ -1,0 +1,98 @@
+# Mike Basios — full profile
+
+AI specialist · Builder of Artemis · Co-founder & CTO, [TurinTech AI](https://turintech.ai) · London. Canonical page: https://mike-turintech.github.io/ (short version: https://mike-turintech.github.io/llms.txt)
+
+## About
+
+I am an AI specialist who builds production systems. I am the co-founder and CTO of [TurinTech AI](https://turintech.ai), a UCL spinout, and the builder of [Artemis](https://www.turintech.ai/product/overview) and its Discovery engine: an optimisation platform that combines evolutionary search with multi-LLM orchestration to explore hundreds of candidate changes to code, models and agents, benchmarks every one on the real workload, and ships only measured winners as pull requests — on any metric a team cares about, from throughput and memory to accuracy and cost. The guiding idea: if it can be measured, it can be optimised. Optimisations Artemis found have been merged upstream by the maintainers of NVIDIA TensorRT-LLM, llama.cpp and OpenAI Whisper, among others; the diffs and benchmarks are on [turintech.ai/open-source](https://www.turintech.ai/open-source). Nine years running that engineering and research organisation, after roles in investment banking, is where the industrial experience comes from.
+
+I hold a PhD from University College London on Darwinian code optimisation — evolving programs under measurement to select data structures and code — published at ESEC/FSE, ICSE, ASE and SSBSE, and recognised with an ACM GECCO [Human-Competitive Results (Humies)](https://www.human-competitive.org/) award. Before UCL I studied computer science at the University of Edinburgh (MSc) and informatics at the University of Piraeus (BSc), and worked on data and software systems in investment banking.
+
+Research and teaching have run alongside the company from the start. At Edinburgh I taught in the lab for the Extreme Computing course, my first hands-on work with Hadoop, Spark and the wider big-data stack; at UCL I supervised MSc theses and projects, many run as internships with banks and technology companies. Since founding TurinTech I have co-supervised PhD students working on the problems behind our products — several have defended, others are in progress — and collaborated with senior researchers at UCL, Leeds (through an Innovate UK Knowledge Transfer Partnership), Surrey, King's College London and Warwick, with support from a Horizon 2020 grant. Most of my publications come out of that work. We started by optimising machine-learning models, with evoML, an evolutionary AutoML studio, and generalised what we learned into Artemis — so each research problem solved along the way, from data-structure selection to LLM-guided search and agent optimisation, has ended up in the product. Away from work I play 9-a-side football.
+
+## Awards and recognition
+
+- 2019: [ACM GECCO Human-Competitive Results ("Humies") Bronze Award](https://www.human-competitive.org/) — for Darwinian Data Structure Selection, with Lingbo Li, Fan Wu, Leslie Kanthan and Earl T. Barr · [slides](http://www0.cs.ucl.ac.uk/staff/ucacbbl/gecco2019/humies/basiosslides.pdf)
+- With TurinTech: [Computing AI Product of the Year 2022](https://event.computing.co.uk/technologyproductawards2022/en/page/2022-winners) (evoML), Financial Times Tech Champions 2023 shortlist, Sifted DeepTech Rising Stars, [TechRound 100](https://techround.co.uk/techround-100/28-turintech-ai/) 2024
+
+## Publications
+
+Full record on [DBLP](https://dblp.org/pid/123/5293), [Google Scholar](https://scholar.google.com/citations?user=8r8p0skAAAAJ) (1,100+ citations, h-index 10) and [Semantic Scholar](https://www.semanticscholar.org/author/Michail-Basios/2907390). Listed as Michail Basios in most venues. Selected: search-based and LLM-guided software optimisation, evolutionary computation and the research behind Artemis; a few finance side-projects are omitted.
+
+### 2026
+
+- [Enhance Performance Tuning via LLM-guided Search Templates](https://doi.org/10.1145/3774895.3812194). Yassine Marzouki, Chunwei Xia, Vardan Voskanyan, Mike Basios, Leslie Kanthan, Zheng Wang. ICS Workshops
+- [Ensemble Learning for Large Language Models in Text and Code Generation: A Survey](https://doi.org/10.1109/TAI.2026.3670235). Mari Ashiga, Wei Jie, Fan Wu, Vardan Voskanyan, Fateme Dinmohammadi, Paul Brookes, Jingzhi Gong, Zheng Wang, Rafail Giavrimis, Mike Basios, Leslie Kanthan. IEEE Transactions on Artificial Intelligence
+
+### 2025
+
+- [Artemis AI: Multi-LLM Framework for Code Optimisation](https://doi.org/10.1109/CAI64502.2025.00057). Rafail Giavrimis, Michail Basios, Fan Wu, Leslie Kanthan, Roman Bauer. CAI
+- [Evolving Excellence: Automated Optimization of LLM-based Agents](https://doi.org/10.48550/arXiv.2512.09108). Paul Brookes, Vardan Voskanyan, Rafail Giavrimis, Matthew Truscott, Mina Ilieva, Chrystalla Pavlou, Alexandru Staicu, Manal Adham, Will Evers-Hood, Jingzhi Gong, Kejia Zhang, Matvey Fedoseev, Vishal Sharma, Roman Bauer, Zheng Wang, Hema Nair, Wei Jie, Tianhua Xu, Aurora Constantin, Leslie Kanthan, Michail Basios. arXiv
+- [Industrial LLM-based Code Optimization under Regulation: A Mixture-of-Agents Approach](https://doi.org/10.48550/arXiv.2508.03329). Mari Ashiga, Vardan Voskanyan, Fateme Dinmohammadi, Jingzhi Gong, Paul Brookes, Matthew Truscott, Rafail Giavrimis, Mike Basios, Leslie Kanthan, Wei Jie. arXiv
+- [Language Models for Code Optimization: Survey, Challenges and Future Directions](https://doi.org/10.48550/arXiv.2501.01277). Jingzhi Gong, Vardan Voskanyan, Paul Brookes, Fan Wu, Wei Jie, Jie Xu, Rafail Giavrimis, Mike Basios, Leslie Kanthan, Zheng Wang. arXiv
+- [Tuning LLM-based Code Optimization via Meta-Prompting: An Industrial Perspective](https://doi.org/10.1109/ASE63991.2025.00295). Jingzhi Gong, Rafail Giavrimis, Paul Brookes, Vardan Voskanyan, Fan Wu, Mari Ashiga, Matthew Truscott, Mike Basios, Leslie Kanthan, Jie Xu, Zheng Wang. ASE
+
+### 2022
+
+- [evoML Yellow Paper: Evolutionary AI and Optimisation Studio](https://doi.org/10.48550/arXiv.2212.10671). Lingbo Li, Leslie Kanthan, Michail Basios, Fan Wu, Manal Adham, Vitali Avagyan, Alexis Butler, Paul Brookes, Rafail Giavrimis, Buhong Liu, Chrystalla Pavlou, Matthew Truscott, Vardan Voskanyan. arXiv
+
+### 2021
+
+- [Genetic Optimisation of C++ Applications](https://doi.org/10.1109/ASE51524.2021.9678650). Rafail Giavrimis, Alexis Butler, Constantin Cezar Petrescu, Michail Basios, Santanu Kumar Dash. ASE
+
+### 2020
+
+- [Checkers: Multi-modal Darwinian API Optimisation](https://doi.org/10.1145/3387940.3392173). Santanu Kumar Dash, Fan Wu, Michail Basios, Lingbo Li, Leslie Kanthan. ICSE
+- [Clone Detection on Large Scala Codebases](https://doi.org/10.1109/IWSC50091.2020.9047640). Wahidur Rahman, Yisen Xu, Fan Pu, Jifeng Xuan, Xiangyang Jia, Michail Basios, Leslie Kanthan, Lingbo Li, Fan Wu, Baowen Xu. IWSC
+- [Genetic Improvement @ ICSE 2020](https://doi.org/10.1145/3417564.3417575). William B. Langdon, Westley Weimer, Justyna Petke, Erik M. Fredericks, Seongmin Lee, Emily Winter, Michail Basios, Myra B. Cohen, Aymeric Blot, Markus Wagner, Bobby R. Bruce, Shin Yoo, Simos Gerasimou, Oliver Krauss, Yu Huang, Michael C. Gerten. ACM SIGSOFT Software Engineering Notes
+- [IEO: Intelligent Evolutionary Optimisation for Hyperparameter Tuning](https://arxiv.org/abs/2009.06390). Yuxi Huan, Fan Wu, Michail Basios, Leslie Kanthan, Lingbo Li, Baowen Xu. arXiv
+
+### 2019
+
+- [Darwinian code optimisation](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.779217). Michail Basios. PhD thesis, University College London
+
+### 2018
+
+- [Darwinian data structure selection](https://doi.org/10.1145/3236024.3236043). Michail Basios, Lingbo Li, Fan Wu, Leslie Kanthan, Earl T. Barr. ESEC/FSE
+
+### 2017
+
+- [Optimising Darwinian Data Structures on Google Guava](https://doi.org/10.1007/978-3-319-66299-2_14). Michail Basios, Lingbo Li, Fan Wu, Leslie Kanthan, Earl T. Barr. SSBSE
+
+### 2013
+
+- [Combining technologies with the ECFS file system](https://doi.org/10.1109/ITHET.2013.6671055). Konstantinos Chimos, Dimitris Kallergis, Michail Basios, Christos Douligeris. ITHET
+- [Unisuite: An innovative integrated suite for delivering synchronous and asynchronous online education](https://doi.org/10.1109/EduCon.2013.6530136). Konstantinos Chimos, Theodoros Karvounidis, Christos Douligeris, Michail Basios, Sotiris Bersimis. EDUCON
+
+### 2012
+
+- [I.P.AD.: An Integrated Project Management and Instructional Systems Development Model for E-learning](https://doi.org/10.1109/PCi.2012.81). Konstantinos Chimos, Michail Basios, Theodoros Karvounidis, Ioannis Kostis, Ioannis Katsanakis, Christos Douligeris. Panhellenic Conference on Informatics
+
+## Talks and media
+
+- 2026: [Panel: The Agentic AI Moment — From Models to Intelligent Systems](https://paris2026.gosim.org/speakers/mike-besios/) — Agentic AI Summit, GOSIM Paris, 5 May
+- 2026: [Google Cloud Summit London](https://www.googlecloudevents.com/london-summit) — session with Hasibe Goculu, Google Cloud, Tobacco Dock, 17–18 June
+- 2026: [Why AI-era engineering needs a measurement-first approach](https://redmonk.com/videos/mike-basios-on-why-ai-era-engineering-needs-a-measurement-first-approach) — RedMonk MonkCast, with Kate Holterhoff · [YouTube](https://www.youtube.com/watch?v=lEzd8FMn7Xg)
+- 2025: [Artemis demo at Intel Vision 2025](https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/How-Intel-Liftoff-Accelerates-AI-Startups/post/1683078) — Las Vegas, with Intel Liftoff · [Optimizing AI with Intel: TurinTech's path to efficiency](https://www.youtube.com/watch?v=rzy9ohgfBw4), Intel Software video (Nov 2024)
+- 2024: [TurinTech AI and Intel: scalable LLMs and cloud](https://www.youtube.com/watch?v=9kuxBsK82ww) — video interview with Michael Hülskötter, WeAreDevelopers World Congress, Berlin
+- 2024: [GenAI-powered code optimisation](https://www.linkedin.com/posts/leventakyil_oop2024-intelliftoff-turintech-activity-7155183232827748352-kUs6) — workshop, Intel Special Day at OOP 2024, Munich
+- 2023: [Automating code optimization with LLMs](https://changelog.com/practicalai/237) — Practical AI podcast #237 (Changelog), with Chris Benson and Daniel Whitenack · [YouTube](https://www.youtube.com/watch?v=08xfmq7uFYs) · [Spotify](https://open.spotify.com/episode/13BzmUsVJvuQ81ANrSj6a6)
+
+## Writing
+
+- 2026: [Improving vLLM CPU inference: rebuilding a dequantisation-GEMM kernel](https://www.turintech.ai/blog/improving-vllm-cpu-inference-rebuilding-a-dequantisation-gemm-kernel) — TurinTech engineering blog
+- 2026: [Inside llama.cpp PR #26802: +13% from graphs that were switched off for no reason](https://www.turintech.ai/blog/inside-llama-cpp-pr-26802) — TurinTech engineering blog
+- 2026: [NVIDIA merged our Artemis-discovered optimisation: +40% throughput in TensorRT-LLM](https://www.turintech.ai/blog/nvidia-merged-our-artemis-discovered-optimization-40-throughput-in-tensorrt-llm) — TurinTech blog
+- 2026: [Fixing a silent kernel fallback in OpenAI Whisper](https://www.turintech.ai/blog/fixing-a-silent-kernel-fallback-in-openai-whisper) — TurinTech engineering blog
+- 2026: [Why your AI costs keep rising even when token prices fall](https://www.turintech.ai/blog/why-your-ai-costs-keep-rising-even-when-token-prices-fall) — TurinTech blog
+- [Recent posts on LinkedIn](https://www.linkedin.com/in/mike-basios-phd-90410436/recent-activity/all/)
+
+## Contact
+
+- Email: mailto:mike@turintech.ai
+- LinkedIn: https://www.linkedin.com/in/mike-basios-phd-90410436/
+- GitHub: https://github.com/mike-turintech
+- Google Scholar: https://scholar.google.com/citations?user=8r8p0skAAAAJ
+- DBLP: https://dblp.org/pid/123/5293
+- X: https://x.com/maik18
+- Company: https://turintech.ai
