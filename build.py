@@ -41,9 +41,9 @@ idx = block.find('<h3 class="year">2013</h3>')
 if idx > 0:
     block = block[:idx] + '<details class="older"><summary>Earlier work (2012–2013)</summary>\n' + block[idx:] + "\n</details>"
 page = open("index.html").read()
-new = re.sub(r"(<!-- PUBS -->).*?(<!-- /PUBS -->)", lambda m: m.group(1) + "\n" + block + "\n" + m.group(2), page, flags=re.S)
-if new == page:
+if "<!-- PUBS -->" not in page or "<!-- /PUBS -->" not in page:
     sys.exit("PUBS markers not found in index.html")
+new = re.sub(r"(<!-- PUBS -->).*?(<!-- /PUBS -->)", lambda m: m.group(1) + "\n" + block + "\n" + m.group(2), page, flags=re.S)
 open("index.html", "w").write(new)
 print(f"{len(pubs)} publications written")
 
