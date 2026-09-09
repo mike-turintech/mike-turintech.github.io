@@ -24,10 +24,6 @@ md = f"""# Mike Basios — full profile
 ## About
 {NL.join(NL + p for p in paras(section('about')))}
 
-## Awards and recognition
-
-{NL.join(items(section('awards')))}
-
 ## Publications
 
 {paras(section('publications'))[0]}
